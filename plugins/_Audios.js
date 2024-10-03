@@ -10,27 +10,27 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[m.sender];
 
   const audioMap = {
-    'linda': './goku/hdpta.mp3',
-    'sin sentimiento': './goku/elcorazon.mp3',
-    'elcorazone': './goku/elcorazon.mp3',
-    'ayuda': './goku/ayuda.mp3',
-    'gey': './goku/gey.mp3', 
-    'negra': './goku/negra.mp3', 
-    'callate': './goku/callate.mp3', 
-    'super albañil': './goku/super albañil.mp3', 
-    'peruano': './goku/peruano.mp3', 
-    'viva venezuela': './goku/viva venezuela.mp3', 
-    'que me importa': './goku/que me importa.mp3', 
-    'mondongo': './goku/mondongo.mp3',
-    'bebitofiufiu': './goku/bebitofiufiu.mp3',
-    'lala': './goku/lala.mp3',
-    'dios': './goku/dios.mp3', 
-    'sad': './goku/sad.mp3', 
-    'risa': './goku/jaja.mp3', 
-    'motivar': './goku/motivar.mp3',
-    'se unió usando el enlace de invitación del este grupo': './goku/se unió usando el enlace de invitación del este grupo.mp3',
-    'calculadora': './goku/calculadora.mp3', 
-    'tengo novia': './goku/tengo novia.mp3'
+    'linda': './Shining/hdpta.mp3',
+    'sin sentimiento': './Shining/elcorazon.mp3',
+    'elcorazone': './Shiningu/elcorazon.mp3',
+    'ayuda': './Shining/ayuda.mp3',
+    'gey': './Shining/gey.mp3', 
+    'negra': './Shining/negra.mp3', 
+    'callate': './Shining/callate.mp3', 
+    'super albañil': './Shining/super albañil.mp3', 
+    'peruano': './Shining/peruano.mp3', 
+    'viva venezuela': './Shining/viva venezuela.mp3', 
+    'que me importa': './Shining/que me importa.mp3', 
+    'mondongo': './Shining/mondongo.mp3',
+    'bebitofiufiu': './Shining/bebitofiufiu.mp3',
+    'lala': './Shining/lala.mp3',
+    'dios': './Shining/dios.mp3', 
+    'sad': './Shining/sad.mp3', 
+    'risa': './Shining/jaja.mp3', 
+    'motivar': './Shining/motivar.mp3',
+    'se unió usando el enlace de invitación del este grupo': './Shining/se unió usando el enlace de invitación del este grupo.mp3',
+    'calculadora': './Shining/calculadora.mp3', 
+    'tengo novia': './Shining/tengo novia.mp3'
     
   };
 
