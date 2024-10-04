@@ -27,7 +27,7 @@ const defaultMenu = {
 ┃  ✿︎ ιαɳαʅҽʝαɳԃɾσσƙ15x
 ┗━━━━━━━━━━━━━━
 ╭──────────────────
-│KI : %limit
+│Lunas : %limit
 │Exp : %totalexp
 │Nivel : %level
 ╰────────────➤ %name
