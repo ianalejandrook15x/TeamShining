@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
         return conn.reply(m.chat, '*Que quieres que busque Sԋιɳιɳɠ Mσσɳ 🌙*', m);
     }
 
-    await m.react('⏳');
+    await m.react('🧸');
     let res = await yts(text);
     let play = res.videos[0];
 
