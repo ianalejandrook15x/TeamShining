@@ -34,9 +34,9 @@ const defaultMenu = {
 └➤ACTIVO: %uptime 
  %readmore
 `.trimStart(),
-  header: '「`MENU X %category`」\n\n╭── ⋅ ⋅ ──Sԋιɳιɳɠ Mσσɳ── ⋅ ',
+  header: '「 MENU X %category 」\n\n╭── ⋅ ⋅ ──Sԋιɳιɳɠ Mσσɳ── ⋅ ',
   body: '> 🌙 >%cmd*\n',
-  footer: '╰── ⋅ ⋅ ──Sԋιɳιɳɠ Mσσɳ── ⋅ \n',
+  footer: '         ──Sԋιɳιɳɠ Mσσɳ──  \n',
   after: '',
 }
 
