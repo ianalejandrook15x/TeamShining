@@ -26,8 +26,7 @@ const defaultMenu = {
 ┏━━━━━━━━ CREADOR
 ┃  ✿︎ ιαɳαʅҽʝαɳԃɾσσƙ15x
 ┗━━━━━━━━━━━━━━
-╭──────────────────✎
-╰─➤INFO
+╭──────────────────
 │KI : %limit
 │Exp : %totalexp
 │Nivel : %level
