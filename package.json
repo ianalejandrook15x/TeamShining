@@ -18,13 +18,13 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/ianalejandrook15x/SonGOKU",
+  "homepage": "https://github.com/ianalejandrook15x/TeamShining",
   "author": {
     "name": "ianalejandrook15x"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianalejandrook15x/SonGOKU.git"
+    "url": "git+https://github.com/ianalejandrook15x/TeamShining.git"
   },
   "bugs": {
     "url": "https://github.com/ianalejandrook15x/SonGOKU/issues"
