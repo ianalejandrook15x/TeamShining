@@ -17,7 +17,7 @@ let handler = async (m, { conn, isRowner}) => {
   let txt = `
 ╭━─━─≪ *Info Bot* ≫─━─━━╮
  \n`
-      txt += `│  ≡◦ *🌟 Creador ∙* ZxYerSixZx\n`
+      txt += `│  ≡◦ *🌟 Creador ∙* Ianalejandrook15x\n`
       txt += `│  ≡◦ *📚 Grupos Unidos ∙* ${groupsIn.length}\n`
       txt += `│  ≡◦ *👤 Chats Privados ∙* ${chats.length - groupsIn.length}\n`
       txt += `│  ≡◦ *💬 Total De Chats ∙* ${chats.length}\n`
