@@ -7,15 +7,15 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
     try {
         let { title, published, quality, likes, commentCount, shareCount, views, dl_url } = await Scraper.tiktokdl(args[0])
-            let txt = `╭─⬣「 *TikTok Download* 」⬣\n`
-                txt += `│  ≡◦ *🔍 Título* : ${title}\n`
-                txt += `│  ≡◦ *📅 Publicado* : ${published}\n`
-                txt += `│  ≡◦ *🪴 Calidad* : ${quality}\n`
-                txt += `│  ≡◦ *👍 Likes* : ${likes}\n`
-                txt += `│  ≡◦ *🗣 Comentarios* : ${commentCount}\n`
-                txt += `│  ≡◦ *💫 Share* : ${shareCount}\n`
-                txt += `│  ≡◦ *📹 Visitas* : ${views}\n`
-                txt += `╰─⬣`
+            let txt = `╭─「 *TikTok Download* 」\n`
+                txt += `│  ≡◦ *🌙 Título* : ${title}\n`
+                txt += `│  ≡◦ *🌙 Publicado* : ${published}\n`
+                txt += `│  ≡◦ *🌙 Calidad* : ${quality}\n`
+                txt += `│  ≡◦ *🌙 Likes* : ${likes}\n`
+                txt += `│  ≡◦ *🌙 Comentarios* : ${commentCount}\n`
+                txt += `│  ≡◦ *🌙 Share* : ${shareCount}\n`
+                txt += `│  ≡◦ *🌙 Visitas* : ${views}\n`
+                txt += `╰─`
 
         await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: txt }, { quoted: m })
     } catch {
