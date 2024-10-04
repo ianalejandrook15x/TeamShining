@@ -22,10 +22,10 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('Shining\nMoon', {
+say('Team\nShining', {
 font: 'chrome',
 align: 'center',
-gradient: ['red']})
+gradient: ['red', 'magenta']})
 
 var isRunning = false
 
@@ -39,7 +39,7 @@ async function start(files) {
     say([process.argv[0], ...args].join(' '), {
       font: 'console',
       align: 'center',
-      gradient: ['magenta']
+      gradient: ['red', 'magenta']
     });
     
     setupMaster({
@@ -82,4 +82,4 @@ async function start(files) {
   }
 }
 
-start(['start.js'])
+start(['shining.js'])
