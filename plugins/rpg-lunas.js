@@ -3,7 +3,7 @@ let handler = async (m, {conn, usedPrefix}) => {
    if (who == conn.user.jid) return error 
    if (!(who in global.db.data.users)) return conn.reply(m.chat, 'El usuario no se encuentra en mi base de Datos.', m)
    let user = global.db.data.users[who]
-   await m.reply(`${who == m.sender ? `Tienes *${user.limit} ⚡ KI* en tu Cartera` : `El usuario @${who.split('@')[0]} tiene *${user.limit} ⚡ KI* en su Cartera`}. `, null, { mentions: [who] })
+   await m.reply(`${who == m.sender ? `Tienes *${user.limit} 🌙 Lunas* en tu Cartera` : `El usuario @${who.split('@')[0]} tiene *${user.limit} 🌙 Lunas* en su Cartera`}. `, null, { mentions: [who] })
 }
 
 handler.help = ['ki']
