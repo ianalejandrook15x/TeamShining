@@ -82,4 +82,4 @@ async function start(files) {
   }
 }
 
-start(['TeamShining.js'])
+start(['shining.js'])
