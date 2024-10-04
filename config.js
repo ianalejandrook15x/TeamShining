@@ -45,12 +45,12 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = `{\n "bot": {\n   "name": "🐉Sԋιɳιɳɠ Mσσɳ🐉",\n     "author": "ianalejandrook15x",\n   "status_bot": ${muptime}\n }\n}`
+global.author = `{\n "bot": {\n   "name": "🌙 Sԋιɳιɳɠ Mσσɳ",\n     "author": "ianalejandrook15x",\n   "status_bot": ${muptime}\n }\n}`
 global.wait = '*Tҽαɱ Sԋιɳιɳɠ Mσσɳ 🌙'
-global.botname = '🐉Sԋιɳιɳɠ Mσσɳ🐉 '
-global.textbot = `🐉Sԋιɳιɳɠ Mσσɳ🐉`
+global.botname = 'Sԋιɳιɳɠ Mσσɳ 🌙'
+global.textbot = `🌙 Sԋιɳιɳɠ Mσσɳ 🌙`
 global.listo = '*Tσɱҽ - Sԋιɳιɳɠ Mσσɳ 🌙*'
-global.namechannel = '【✗🐉Sԋιɳιɳɠ Mσσɳ🐉✗】'
+global.namechannel = 'Tҽαɱ Sԋιɳιɳɠ Mσσɳ 🌙'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 global.fantasyVid = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
