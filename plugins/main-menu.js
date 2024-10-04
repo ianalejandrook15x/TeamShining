@@ -152,7 +152,7 @@ let img = await (await fetch(`https://qu.ax/ZuBU.mp4`)).buffer()
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'help','goku', 'menú'] 
+handler.command = ['menu', 'help','shining', 'menú'] 
 handler.register = true 
 export default handler
 
