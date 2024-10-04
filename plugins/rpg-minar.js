@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
   }
 
   global.db.data.users[m.sender].limit += amount
-  await m.reply(`Genial! minaste *${amount} ⚡ Ki*`)
+  await m.reply(`Genial! minaste *${amount} 🌙 Lunas*`)
   cooldowns[m.sender] = Date.now()
 }
 handler.help = ['minar']
