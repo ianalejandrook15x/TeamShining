@@ -25,7 +25,7 @@ const port = process.env.PORT || 8080;
 say('Shining\nMoon', {
 font: 'chrome',
 align: 'center',
-gradient: ['red', 'magenta']})
+gradient: ['red']})
 
 var isRunning = false
 
@@ -39,7 +39,7 @@ async function start(files) {
     say([process.argv[0], ...args].join(' '), {
       font: 'console',
       align: 'center',
-      gradient: ['red', 'magenta']
+      gradient: ['magenta']
     });
     
     setupMaster({
