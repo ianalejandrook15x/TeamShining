@@ -31,7 +31,7 @@ const defaultMenu = {
 │Exp : %totalexp
 │Nivel : %level
 ╰────────────➤ %name
-└➤孫ACTIVO: %uptime 
+└➤ACTIVO: %uptime 
  %readmore
 `.trimStart(),
   header: '「`MENU X %category`」\n\n╭── ⋅ ⋅ ──Sԋιɳιɳɠ Mσσɳ── ⋅ ',
