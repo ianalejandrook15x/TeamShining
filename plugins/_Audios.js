@@ -1,8 +1,3 @@
-//Código creador por matias-crypto colaborador De TeamShining 
-//Audio puesto por ianalejandrook15x
-//si usa el audio para su bot deje los créditos 
-//No seas gey no quites los créditos 😑🇦🇱
-
 import fs from 'fs';
 
 let handler = async (m, { conn }) => {
@@ -53,7 +48,7 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['ayuda', 'gey', 'ayuda', 'elcorazon', 'sin sentimiento', 'linda','negra', 'callate', 'super albañil', 'que me importa', 'mondongo', 'bebitofiufiu', 'lala', 'dios', 'risa', 'tengo novia', 'calculadora', 'motivar',
 'peruano', 'se unió usando el enlace de invitación del este grupo', 'viva venezuela', 'sad']
-handler.customPrefix = /^(hola|cómo estás|goku|gey|si te mueves|ayuda|sin sentimiento|linda|negra|eres tu|callate|super albañil|peruano|viva venezuela|que me importa|mondongo|bebitofiufiu|lala|dios|sad|jaja|motivar|calculadora|tengo novia|se unió usando el enlace de invitación del este grupo)/i;
+handler.customPrefix = /^(hola|cómo estás|gey|si te mueves|ayuda|sin sentimiento|linda|negra|eres tu|callate|super albañil|peruano|viva venezuela|que me importa|mondongo|bebitofiufiu|lala|dios|sad|jaja|motivar|calculadora|tengo novia|se unió usando el enlace de invitación del este grupo)/i;
 handler.command = new RegExp;
 handler.tags = ['Audios Dbz'] 
 export default handler;
