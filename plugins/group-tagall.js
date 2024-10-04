@@ -10,11 +10,11 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `${pesan}`;
-  let teks = `*Son - Bot✨*\n\n *Integrantes :  ${participants.length}* ${oi}\n\n┌──⭓ Ya revivan\n`;
+  let teks = `*Bσƚ Sԋιɳιɳɠ*\n\n *Integrantes :  ${participants.length}* ${oi}\n\n┌── Ya revivan\n`;
   for (const mem of participants) {
-    teks += `🐉 @${mem.id.split('@')[0]}\n`;
+    teks += `☁ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `└───────⭓
+  teks += `└───────
 
 © 2024 Starlights Team | All rights reserved`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
