@@ -3,22 +3,22 @@ import fetch from 'node-fetch'
 
 export async function before(m, {conn, participants, groupMetadata}) {
   if (!m.messageStubType || !m.isGroup) return !0;
-  let pp = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => 'https://qu.ax/irNF.jpg')
+  let pp = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => 'https://tinyurl.com/238t2yav')
   let img = await (await fetch(`${pp}`)).buffer()
   let chat = global.db.data.chats[m.chat]
 
   if (chat.bienvenida && m.messageStubType == 27) {
-    let bienvenida = `✗ *${botname}* \n│「 Nuevo saya 」\n└┬ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✗ Hol soy Bot \n   │✗ ${groupMetadata.subject}\n   ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏⳹`
+    let bienvenida = `╰⊱🌸≺ *${botname}* \n「 Bιҽɳʋҽɳιԃσ 」\n「  @${m.messageStubParameters[0].split`@`[0]}  」\n「 ${groupMetadata.subject} 」\n「 Dιʂϝɾυƚҽ ʂҽ ҽʂƚαԃια 🌸 」`
     
 await conn.sendAi(m.chat, botname, textbot, bienvenida, img, img, canal, estilo)
   }
   
   if (chat.bienvenida && m.messageStubType == 28) {
-    let bye = `✗ *${botname}* \n│「 Chau 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✗  Se fue\n   │👋 insecto \n   ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏ ⳹`
+    let bye = `╰⊱🌸≺ *${botname}* \n「 Hαʂƚα ʅυҽɠσ 」\n「  @${m.messageStubParameters[0].split`@`[0]}  」\n「 ${groupMetadata.subject} 」\n「 Vυҽʅʋҽ ρɾσɳƚσ 🌸 」`
 await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal, estilo)
   }
   
   if (chat.bienvenida && m.messageStubType == 32) {
-    let kick = `✗ *${botname}* \n│「 Chau  」\n└┬ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │👋  insecto \n te eliminó un admi \n    ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏⳹`
+    let kick = `╰⊱🌸≺ *${botname}* \n「 Sҽ ҽʅιɱιɳσ 」\n「  @${m.messageStubParameters[0].split`@`[0]}  」\n「 ${groupMetadata.subject} 」\n「 Aԃισʂ 🌸 」`
 await conn.sendAi(m.chat, botname, textbot, kick, img, img, canal, estilo)
 }}
