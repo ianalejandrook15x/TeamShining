@@ -38,7 +38,7 @@
         "@ibaraki-douji/pixivts": "^2.4.1",
         "awesome-phonenumber": "^3.4.0",      "@SumiFX/Scraper": "github:SumiFX/SumiFX-Scraper",
         "@StarlightsTeam/Scraper": "github:StarlightsTeam/StarlightsTeam-Scraper",
-        "cheerio": "github:AikerDev/cheeiro",
+        "cheerio": "npm:cheerio@1.0.0-rc.12",
         "axios": "*",
         "acrcloud": "^1.4.0",
         "form-data": "^4.0.0",
